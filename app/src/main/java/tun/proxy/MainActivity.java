@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity implements
             case R.id.action_show_about:
                 new AlertDialog.Builder(this)
                     .setTitle(getString(R.string.app_name) + getVersionName())
-                    .setMessage(R.string.app_name)
+                    .setMessage(R.string.app_name+"\r\n https://github.com/yogkin/HttpProxy")
                     .show();
                 break;
             default:
